@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %} {{ page.title }} {% endif %}</title>
+    <link rel="stylesheet" href="/css/app.css" />
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+  </head>
+
+
+	<body>
+	<!-- Header
+	    ================================================== -->
+	<header>
+
+	</header>
+
+
+	{{ content }}
+
+	<footer class="panel">
+        <div class="row">
+        <div class="columns large-6">
+            <ul class="inline">
+                <li class=""><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="columns large-6">
+            <h4>Lifeoutthewindow.com</h4>
+            <p>Life out the window is an experiment in blogging and is developed, curated and hosted by <a href="/about.html">Matt Reimer</a>.</p>
+            <p>The site is designed using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://foundation.zurb.com" target="_blank">Foundation</a> framework.</p>
+        </div>
+        </div>
+	</footer>
+
+	<!-- Footer
+	    ================================================== -->
+
+	<!-- Javascripts 
+	    ================================================= -->
+    <script src="/bower_components/jquery/jquery.js"></script>
+    <script src="/bower_components/foundation/js/foundation.min.js"></script>
+
+
+    <script src="/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="/js/mustache.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="/js/date.format.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="/js/URI.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="/js/app.js"></script>
+
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
+
+
+    <!-- Analytics
+    ================================================== -->
+           <script type="text/javascript">//<![CDATA[
+            // 
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-1240540-9']);
+                            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+	</body>
+</html>
