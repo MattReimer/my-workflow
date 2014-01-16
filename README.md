@@ -1,1 +1,4 @@
-# This is a Jekyll Site to support the repo it is in.
+# My Workflow
+
+* gh-pages branch has the Jekyll site
+* Master branch is no longer in use

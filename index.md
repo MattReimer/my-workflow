@@ -28,7 +28,7 @@ A couple of times lately someone has been working over my shoulder and said "Wow
 
 ## Vim
 
-* [My.vimrc file](https://github.com/MattReimer/my-workflow/blob/master/vim/.vimrc)
+* [My.vimrc file](https://github.com/MattReimer/my-workflow/blob/gh-pages/files/vim/.vimrc)
 
 --------------------------
 
@@ -70,5 +70,5 @@ Example
 
 ## Alfred Workflows
 
-* [Toggle hidden files](https://github.com/MattReimer/my-workflow/raw/master/alfred/Toggle%20hidden%20files.alfredworkflow) - Actually written by Chris Torglason
+* [Toggle hidden files](https://github.com/MattReimer/my-workflow/raw/gh-pages/files/alfred/Toggle%20hidden%20files.alfredworkflow) - Actually written by Chris Torglason
 * [Eject all](http://alfredtips.tumblr.com/post/3422385132/the-one-in-which-you-want-to-eject-all-with)
