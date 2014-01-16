@@ -1,4 +1,4 @@
-my-workflow
-===========
+# My Workflow
 
-Just some things about how I work
+* gh-pages branch has the Jekyll site
+* Master branch is no longer in use
