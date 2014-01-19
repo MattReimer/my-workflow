@@ -3,7 +3,9 @@ layout: page
 title: Tmux
 ---
 
-Tmux is a terminal multiplexer
+Tmux is a terminal multiplexer. You can read more about it [here](http://tmux.sourceforge.net/). It can be installed with [Homebrew](https://github.com/Homebrew/homebrew/blob/master/Library/Formula/tmux.rb) and lives/works happily with [vim](http://thedrearlight.com/blog/tmux-vim.html)
+
+It works just fine out of the box but over time I've added little tweaks to my `.tmux.conf` file to speed up my day and avoid finger strain.
 
 ## My .tmux.conf file
 
