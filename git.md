@@ -23,6 +23,8 @@ alias g="git $1"
 alias gs="git status"
 alias ga="git add $1"
 alias gc="git commit -m $1"
+alias gca="git commit -am $1"
+alias gb="git branch -a"
 alias gf="git fetch"
 alias gbb="git branch --set-upstream $1 origin/$1"
 ```
