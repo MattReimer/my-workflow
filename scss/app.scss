@@ -1,5 +1,7 @@
 @import "settings";
 @import "foundation";
+@import "compass/css3";
+@import "compass/utilities";
 
 @import
   "foundation/components/accordion",
@@ -40,3 +42,4 @@
 
 
 @import "typography";
+@import "syntax";

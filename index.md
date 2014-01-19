@@ -11,10 +11,34 @@ A couple of times lately someone has been working over my shoulder and said "Wow
 
 ## Apps that make life better (on OSX)
 
-* [Divvy](http://mizage.com/divvy/) - Get control over your windows
-* [iTerm](http://www.iterm2.com/) - Better than OSX terminal
-* [PageKite](http://pagekite.net/) - Serve anything on your localhost to a real web address (good for showing clients things)
-* [Alfred](http://www.alfredapp.com/) - Alfred saves you time when you search for files online or on your Mac. Be more productive with hotkeys, keywords and file actions at your fingertips.
+* [Divvy](http://mizage.com/divvy/) - Get control over your windows *($14, free trial)*
+* [iTerm](http://www.iterm2.com/) - Better than OSX terminal *(Free)*
+* [PageKite](http://pagekite.net/) - Serve anything on your localhost to a real web address. Great for showing clients things *(Monthly pay-what-you-can)*
+* [Alfred](http://www.alfredapp.com/) - Alfred saves you time when you search for files online or on your Mac. Be more productive with hotkeys, keywords and file actions at your fingertips. *(Free with $20 power version)*
+* [VirtualBox](https://www.virtualbox.org/) - Run any number of operating systems on one machine. *(Free)*
+* [Vagrant](http://www.vagrantup.com/) - Use in conjunction with VirtualBox *(Free)*
+* [VirtualHostX](http://clickontyler.com/virtualhostx/) - When you have lots of sites having something to manage your virtualhosts in apache is nice. *($49)*
+* [Sublime Text](http://www.sublimetext.com/) - My favourite text editor *()*
+* [Dash](http://kapeli.com/dash) - Instantly look up any function/class in any API.
+
+
+## Subjects
+
+### Web Dev Stuff
+
+* [Drupal](drupal/index.html)
+* [Wordpress](wordpress/index.html)
+* [Sublime](sublime/index.html)
+
+### Terminal Hotness
+
+* [tmux](tmux/index.html)
+* [Vim](vim/index.html)
+* [Homebrew](misc/homebrew.html)
+### Misc
+
+* [Regex](misc/regex)
+* [Git](misc/git)
 
 
 --------------------------
@@ -25,6 +49,8 @@ A couple of times lately someone has been working over my shoulder and said "Wow
 ## Homebrews I use
 
 * [tmux](http://tmux.sourceforge.net/) - Terminal multiplexer. Keep all my terminal work organized into panes, pages and sessions
+
+--------------------------
 
 ## Vim
 
