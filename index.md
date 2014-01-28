@@ -47,3 +47,54 @@ I also often see people doing something in a YouTube video or while watching the
 * [PageKite](http://pagekite.net/) - Serve anything on your localhost to a real web address. Great for showing clients things *(Monthly pay-what-you-can)*
 * [Alfred](http://www.alfredapp.com/) - Alfred saves you time when you search for files online or on your Mac. Be more productive with hotkeys, keywords and file actions at your fingertips. *(Free with $20 power version)*
 * [Divvy](http://mizage.com/divvy/) - Get control over your OSX windows *($14, free trial)*
+
+----------------------------
+
+## Setting up your Machine
+
+### OSX
+
+* [Installing Ruby with rbenv and brew](https://gist.github.com/jasoncodes/1223731) Don't run this directly. Just use it as a reference. 
+
+### Ubuntu
+
+I provision a lot of Ubuntu boxes and I like to have the same setup on each one. Here's the basics of it. I'll try to put it into a proper repo soon. This is just pulled out of my usual vagrant provisioner.
+
+```
+#!/bin/sh
+
+# set -e # Exit script immediately on first error.
+set -x # Print commands and their arguments as they are executed.
+
+DEV_DIR=/vagrant/dev
+
+sudo apt-get update
+# Some essentials for building stuff and working in unix 
+# sudo apt-get install vim curl kubuntu-desktop vlc -y
+
+
+# Install ruby using RVM
+curl -L get.rvm.io | bash -s stable --auto
+. ~/.bash_profile
+sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev -y
+sudo apt-get install libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake -y
+sudo apt-get install libtool bison subversion pkg-config -y
+rvm install 1.9.3
+rvm use 1.9.3
+ruby -v
+#rvm --default use 1.9.3-p327
+gem install rails zurb-foundation compass dashing 
+
+# Install xfce
+# sudo apt-get xubuntu-desktop -y
+
+#Sublime text 2
+# sudo add-apt-repository ppa:webupd8team/sublime-text-2
+# sudo apt-get update
+# sudo apt-get install sublime-text
+# sudo cp /usr/bin/sublime-text-2 /usr/bin/sublime-text
+#   sudo cp /usr/bin/sublime-text-2 /usr/bin/subl
+
+#Dropbox time
+# cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
+```
